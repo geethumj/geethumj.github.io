@@ -141,7 +141,7 @@ ul#menu li a
   font: normal 100% arial, sans-serif;
   display: block; 
   float: left; 
-  height: 37px;
+  height: 72px;
   padding: 29px 26px 6px 26px;
   text-align: center;
   color: #FFF;
@@ -165,6 +165,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   width: 190px;
   padding: 0 15px 20px 15px;}
 
+.sidebar1
+{ float: left;
+  width: 210px;
+  padding: 0 15px 20px 15px;}
+
 .sidebar ul
 { width: 178px; 
   padding: 4px 0 0 0; 
@@ -183,9 +188,19 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #444;
   text-decoration: none;} 
 
+#content1
+{ text-align: left;
+  width: 600px;
+  padding: 0;}
+
+#content2
+{ text-align: left;
+  width: 600px;
+  padding: 0;}
+
 #content
 { text-align: left;
-  width: 595px;
+  width: 755px;
   padding: 0;}
 
 #content ul
@@ -201,7 +216,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #footer
 { width: 900px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
-  height: 33px;
+  height: 40px;
   padding: 24px 0 5px 0;
   text-align: center; 
   background: #1293EE;
