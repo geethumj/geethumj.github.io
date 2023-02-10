@@ -1,0 +1,20 @@
+{
+  "name": "geethumj.github.io",
+  "version": "1.0.0",
+  "description": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section --> [maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers' <!-- ALL-CONTRIBUTORS-BADGE:END -->",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geethumj/geethumj.github.io.git"
+  },
+  "author": "geethumj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geethumj/geethumj.github.io/issues"
+  },
+  "homepage": "https://github.com/geethumj/geethumj.github.io#readme"
+}
