@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
-description: 
-years: [2023, 2021, 2019, 2018, 2017, 2016]
+permalink: /patents/
+title: Patents
+description: Patents filed in reverse chronological order
+years: [2023, 2022]
 nav: true
 nav_order: 1
 ---
@@ -12,7 +12,7 @@ nav_order: 1
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f patents -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
