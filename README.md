@@ -235,12 +235,34 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 4. Make changes, commit, and push!
 5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
-** For updating changes and deploying again
+**For updating changes and deploying again;**
 1. brew install npm
 2. npm init 
 3. Edit package.json to add script deploy
-4. npm run deploy
-5. git add .   && git commit -m "npm deploy" && git push origin master
+```
+{
+  "name": "geethumj.github.io",
+  "version": "1.0.0",
+  "description": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section --> [maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers' <!-- ALL-CONTRIBUTORS-BADGE:END -->",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geethumj/geethumj.github.io.git"
+  },
+  "author": "geethumj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geethumj/geethumj.github.io/issues"
+  },
+  "homepage": "https://github.com/geethumj/geethumj.github.io#readme"
+}
+```
+5. npm run deploy
+6. git add .   && git commit -m "npm deploy" && git push origin master
 **For project pages:**
 1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
 2. Set up automatic deployment of your webpage (see instructions below).
