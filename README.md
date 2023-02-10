@@ -235,6 +235,12 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 4. Make changes, commit, and push!
 5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
+** For updating changes and deploying again
+1. brew install npm
+2. npm init 
+3. Edit package.json to add script deploy
+4. npm run deploy
+5. git add .   && git commit -m "npm deploy" && git push origin master
 **For project pages:**
 1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
 2. Set up automatic deployment of your webpage (see instructions below).
