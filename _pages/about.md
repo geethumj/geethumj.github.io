@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Lead Research Scientist in Rakuten Institute of Technology, Bangalore, India, where I work on computer vision and machine learning. 
+I am a Staff Research Scientist in Rakuten Institute of Technology, Bangalore, India, where I work on computer vision and machine learning. 
 
 I joined Rakuten in May, 2019. At Rakuten, I mostly work on e-commerce applications. I did my PhD from [Indian Institute of Technology, Madras](https://www.iitm.ac.in/) under the guidance of [Prof. Sukhendu Das](http://www.cse.iitm.ac.in/~sdas/). My thesis was on applications for shaky videos, such as video stabilization, moving object segmentation and panorama creation.
 
