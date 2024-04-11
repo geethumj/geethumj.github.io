@@ -31,9 +31,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Staff Research Scientist
+      institution: Rakuten Institute of Technology, Bangalore
+      year: 2024-Present
+      
     - title: Lead Research Scientist
       institution: Rakuten Institute of Technology, Bangalore
-      year: 2021-Present
+      year: 2021-2024
 
     - title: Associate Research Scientist
       institution: Rakuten Institute of Technology, Bangalore
